@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Keyboard</title>
+</head>
+
+<body>
+  <textarea class="centered textarea"></textarea>
+  <div class="centered board">
+    <div class="board__row">
+      <button class="key key_square" data-code="Backquote">`</button>
+      <button class="key key_square" data-code="Digit1">1</button>
+      <button class="key key_square" data-code="Digit2">2</button>
+      <button class="key key_square" data-code="Digit3">3</button>
+      <button class="key key_square" data-code="Digit4">4</button>
+      <button class="key key_square" data-code="Digit5">5</button>
+      <button class="key key_square" data-code="Digit6">6</button>
+      <button class="key key_square" data-code="Digit7">7</button>
+      <button class="key key_square" data-code="Digit8">8</button>
+      <button class="key key_square" data-code="Digit9">9</button>
+      <button class="key key_square" data-code="Digit0">0</button>
+      <button class="key key_square" data-code="Minus">-</button>
+      <button class="key key_square" data-code="Equal">=</button>
+      <button class="key key_long" data-code="Backspace" data-mode="backspace">🠔 Backspace</button>
+    </div>
+    <div class="board__row">
+      <button class="key key_double" data-code="Tab" data-mode="tab">Tab</button>
+      <button class="key key_square" data-code="KeyQ">q</button>
+      <button class="key key_square" data-code="KeyW">w</button>
+      <button class="key key_square" data-code="KeyE">e</button>
+      <button class="key key_square" data-code="KeyR">r</button>
+      <button class="key key_square" data-code="KeyT">t</button>
+      <button class="key key_square" data-code="KeyY">y</button>
+      <button class="key key_square" data-code="KeyU">u</button>
+      <button class="key key_square" data-code="KeyI">i</button>
+      <button class="key key_square" data-code="KeyO">o</button>
+      <button class="key key_square" data-code="KeyP">p</button>
+      <button class="key key_square" data-code="BracketLeft">[</button>
+      <button class="key key_square" data-code="BracketRight">]</button>
+      <button class="key key_double" data-code="Backslash">\</button>
+    </div>
+    <div class="board__row">
+      <button class="key key_triple key_caps" data-code="CapsLock" data-mode="caps">Caps
+        Lock</button>
+      <button class="key key_square" data-code="KeyA">a</button>
+      <button class="key key_square" data-code="KeyS">s</button>
+      <button class="key key_square" data-code="KeyD">d</button>
+      <button class="key key_square" data-code="KeyF">f</button>
+      <button class="key key_square" data-code="KeyG">g</button>
+      <button class="key key_square" data-code="KeyH">h</button>
+      <button class="key key_square" data-code="KeyJ">j</button>
+      <button class="key key_square" data-code="KeyK">k</button>
+      <button class="key key_square" data-code="KeyL">l</button>
+      <button class="key key_square" data-code="Semicolon">;</button>
+      <button class="key key_square" data-code="Quote">"</button>
+      <button class="key key_long" data-code="Enter" data-mode="enter">Enter</button>
+    </div>
+    <div class="board__row">
+      <button class="key key_long" data-code="ShiftLeft" data-mode="shift">Shift</button>
+      <button class="key key_square" data-code="KeyZ">z</button>
+      <button class="key key_square" data-code="KeyX">x</button>
+      <button class="key key_square" data-code="KeyC">c</button>
+      <button class="key key_square" data-code="KeyV">v</button>
+      <button class="key key_square" data-code="KeyB">b</button>
+      <button class="key key_square" data-code="KeyN">n</button>
+      <button class="key key_square" data-code="KeyM">m</button>
+      <button class="key key_square" data-code="Comma">,</button>
+      <button class="key key_square" data-code="Period">.</button>
+      <button class="key key_square" data-code="Slash">/</button>
+      <button class="key key_square" data-code="ArrowUp" data-mode="up">🠕</button>
+      <button class="key key_triple" data-code="ShiftRight" data-mode="shift">Shift</button>
+    </div>
+    <div class="board__row">
+      <button class="key key_double" data-code="ControlLeft" data-mode="ctrl">Ctrl</button>
+      <button class="key key_square" data-code="lang" data-mode="lang">En</button>
+      <button class="key key_square" data-code="AltLeft" data-mode="alt">Alt</button>
+      <button class="key key_long" data-code="Space"> </button>
+      <button class="key key_square" data-code="AltRight" data-mode="alt">Alt</button>
+      <button class="key key_square" data-code="Delete" data-mode="delete">Del</button>
+      <button class="key key_square" data-code="ArrowLeft" data-mode="left">🠔</button>
+      <button class="key key_square" data-code="ArrowDown" data-mode="down">🠗</button>
+      <button class="key key_square" data-code="ArrowRight" data-mode="right">🠖</button>
+      <button class="key key_square" data-code="ControlRight" data-mode="ctrl">Ctrl</button>
+    </div>
+  </div>
+  <p class="description centered">Made in Windows. Use Ctrl + Alt, or a click on a special key to change language.</p>
+</body>
+
+</html>
