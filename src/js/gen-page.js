@@ -2,7 +2,7 @@ import Builder from './element-builder';
 
 export default function generatePage(layout) {
   const body = document.querySelector('body');
-  const insert = new Builder('textarea', { class: 'centered textarea' }, body);
+  const insert = new Builder('textarea', { class: 'centered textarea', placeholder: 'Use 🠔 and 🠖 to move cursor left and right, 🠕 to move cursor to the start and 🠗 to the end' }, body);
   insert.insertElement();
   const boardBuild = new Builder('div', { class: 'centered board' }, body);
   boardBuild.insertElement();
